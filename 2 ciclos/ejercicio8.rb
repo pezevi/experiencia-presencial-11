@@ -1,9 +1,17 @@
 # Generar -utilizando un ciclo iterativo- un string con la siguiente estructura:
 # a = '1impar 2par 3impar 4par 5impar 6par 7impar 8par 9impar 10par'
 
-a = ''
-10.times do |i|
-	
-end
+#a = ''
+#10.times do |i|
 
-puts a
+#end
+
+#puts a
+
+10.times do |i|
+	if i%2!=0
+		puts "#{i}impar"
+	else
+		puts "#{i}par"
+	end
+end

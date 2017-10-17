@@ -11,3 +11,13 @@
 </table>
 
 =end
+
+a = '<table> <tbody> <tr>'
+
+3.times do
+  a = a + '<td> 1 </td>'
+end
+
+
+puts a
+puts '<table> <tbody> <tr>'

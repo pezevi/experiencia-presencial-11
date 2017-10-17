@@ -24,3 +24,17 @@ Generar el código para imprimir la siguiente tabla:
   <tbody>
  </table>
 =end
+
+puts "<table>"
+puts "<tbody>"
+
+for tr in (1..3)
+  puts "  <tr>"
+    for td in (1..4)
+      puts "    <td> #{td} </td>"
+    end
+  puts "  </tr>"
+end
+
+puts "<table>"
+puts "<tbody>"
